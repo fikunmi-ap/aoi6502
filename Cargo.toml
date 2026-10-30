@@ -1,0 +1,19 @@
+[package]
+name = "aoi6502"
+version = "0.1.0"
+edition = "2024"
+description = "A JIT-compiled NMOS 6502 emulator"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/fikunmi-ap/aoi6502"
+readme = "README.md"
+keywords = ["6502", "cpu", "emulator", "jit", "retrocomputing"]
+categories = ["emulators"]
+exclude = [
+    ".vscode",
+    "ARCHITECTURE.md",
+    "TDL.md",
+    "launch.json",
+    "scripts",
+]
+
+[dependencies]
